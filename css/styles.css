@@ -1,11 +1,25 @@
 /*     #212121; - цвет заголовка
 /* #757575; - цвет текста */
+
+:root{
+    --hero-text-color:#FFFFFF;
+    --primary-text-color:#757575;
+    --title-text-color:#212121;
+    --site-nav-text-color:#212121;
+    --site-auth-nav-text-color: #757575;
+    --accent-color: #2196F3;
+    --address-footer-text-color: #FFFFFF;
+    --primary-bg-color: #FFFFFF;
+    --button-primary-text-color: #FFFFFF;
+}
+
+
 body{
-    background-color: #ffffff;
-    color:#757575; 
+    background-color: var(----primary-bg-color);
+    color:var(--primary-text-color); 
 }
 .logo {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 .logosecondword {
     color:#000000;
@@ -17,32 +31,74 @@ body{
 /* Site nav */
 
 .site-nav .link {
-color: #212121;
+color: var(--site-nav-text-color);
 }
 
 .site-nav .link:hover, 
 .site-nav .link:focus {
-    color: #2196F3;
+    color: var(--accent-color);
 }
 
 .auth-nav .link {
-    color: #757575;
+    color:var(--site-auth-nav-text-color);
     }
     
     .auth-nav .link:hover, 
     .auth-nav .link:focus {
-        color: #2196F3;
+        color: var(--accent-color);
     }
     
 
 /*  Hero */
 
 .hero-tittle {
-    color: #FFFFFF;
+    color: var(--hero-text-color);
 }
 
-/*Section*/
+/*features*/
 
-.section-title{
-    color: #212121;
+.features-title{
+    color: var(--title-text-color);
+}
+
+.feature-list .title{
+    color: var(--title-text-color);
+}
+
+
+/* what we do */
+
+.work-title {
+    color: var(--title-text-color);
+}
+
+/* Our Team */
+
+.team-title{
+    color: var(--title-text-color);
+}
+
+.team-list .title{
+    color: var(--title-text-color);
+}
+
+/* footer */
+
+.address-footer{
+    color: var(--address-footer-text-color);
+}
+
+/* Buttons */
+.button{
+    color: var(--button-primary-text-color);
+    background-color: var(--accent-color) ;
+    font-size: 24px;
+    padding: 12px 24px;
+    display: inline-block;
+    border: 1px solid black;
+}
+
+.button.primary {
+    color: var(--button-primary-text-color);
+    background-color: var(--accent-color) ;
 }
