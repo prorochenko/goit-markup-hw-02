@@ -19,16 +19,16 @@ body{
     background-color: var(----primary-bg-color);
     color:var(--primary-text-color); 
     font-family: Roboto, sans-serif;
-    
-
+    font-size: 14px;
+    letter-spacing: 0.03em;
 }
+
 .logo {
     color: var(--accent-color);
     font-family: Raleway, sans-serif;
     font-weight: 700;
     font-size: 26px;
     line-height: 1.19;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -47,7 +47,6 @@ body{
 .site-nav .link {
 color: var(--site-nav-text-color);
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
@@ -66,7 +65,6 @@ text-decoration: none;
 .auth-nav .link {
     color:var(--site-auth-nav-text-color);
 font-weight: 500;
-font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 text-decoration: none;
@@ -98,33 +96,40 @@ text-transform: uppercase;
 
 .features-title{
     color: var(--title-text-color);
+    }
+
+/*  правильно і семантично ховати заголовки */
+.visually-hidden { 
+        position: absolute; 
+        width: 1px; 
+        height: 1px; 
+        margin: -1px; 
+        border: 0; 
+        padding: 0; 
+        white-space: nowrap; 
+        clip-path: inset(100%); 
+        clip: rect(0 0 0 0); 
+        overflow: hidden; 
 }
 
 .feature-list .title{
     color: var(--title-text-color);
-    font-weight: 700;
-    font-size: 14px;
     line-height: 1.14;
-    letter-spacing: 0.03em;
     text-transform: uppercase;
 }
 
 .feature-list .text{
-    font-size: 14px;
     line-height: 1.71;
-        letter-spacing: 0.03em;  
 }
 
 
 /* what we do */
 
-.work-title {
+.section .title {
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 36px;
     line-height: 1.17;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* Our Team */
@@ -134,14 +139,6 @@ text-transform: uppercase;
 .team-list .cards{
     background-color: #FFFFFF;
 }
-.team-title{
-    color: var(--title-text-color);
-font-weight: 700;
-font-size: 36px;
-line-height: 1.17;
-text-align: center;
-letter-spacing: 0.03em;
-}
 
 .team-list .title{
     color: var(--title-text-color);
@@ -149,13 +146,11 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .team-list .text{
     font-size: 16px;
     line-height: 1.19;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 /* footer */
@@ -167,9 +162,7 @@ letter-spacing: 0.03em;
     color: var(--address-footer-text-color);
     font-style: normal;
     font-weight: 400;
-    font-size: 14px;
     line-height: 1.71;
-    letter-spacing: 0.03em;
     text-decoration: none;
 }
 
@@ -177,7 +170,7 @@ letter-spacing: 0.03em;
     color: rgba(255, 255, 255, 0.6);
 }
 
-    .address-footer:hover, 
+    .address-footer.focus:hover, 
     .address-footer:focus {
     color: var(--accent-color);
 }
@@ -217,7 +210,6 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 .button.current{
     color: var(--button-primary-text-color);
@@ -226,18 +218,15 @@ letter-spacing: 0.03em;
     font-size: 16px;
     line-height: 1.6;
     text-align: center;
-    letter-spacing: 0.03em;
 }
 
 .portfolio .title{
     color: var(--title-text-color);
-    font-weight: 700;
     font-size: 18px;
     line-height: 2;
     letter-spacing: 0.06em;
 }
 .portfolio .text{
     font-size: 16px;
-    line-height: 1.88x;
-    letter-spacing: 0.03em;
+    line-height: 1.88;
 }
