@@ -197,6 +197,14 @@ background-color: #F5F4FA;
     letter-spacing: 0.06em;
 }
 
+.list {
+    list-style: none;
+}
+
+/* Porfolio PAGE */
+
+
+
 .button.porfolio{
     color: var(--title-text-colorl);
     background-color: var(--button-porfolio-usual) ;    
@@ -216,6 +224,15 @@ background-color: #F5F4FA;
     letter-spacing: 0.03em;
 }
 
-.list {
-    list-style: none;
+.portfolio .title{
+    color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 2;
+    letter-spacing: 0.06em;
+}
+.portfolio .text{
+    font-size: 16px;
+    line-height: 1.88x;
+    letter-spacing: 0.03em;
 }
