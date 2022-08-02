@@ -11,18 +11,32 @@
     --address-footer-text-color: #FFFFFF;
     --primary-bg-color: #FFFFFF;
     --button-primary-text-color: #FFFFFF;
+    --button-porfolio-usual:#F5F4FA;
 }
 
 
 body{
     background-color: var(----primary-bg-color);
     color:var(--primary-text-color); 
+    font-family: Roboto, sans-serif;
+    
+
 }
 .logo {
     color: var(--accent-color);
+    font-family: Raleway, sans-serif;
+    font-weight: 700;
+    font-size: 26px;
+    line-height: 1.19;
+    letter-spacing: 0.03em;
+    text-decoration: none;
 }
+
 .logosecondword {
     color:#000000;
+}
+.logosecondwordinfooter{
+    color:#FFFFFF;
 }
 .list {
     list-style: none;
@@ -32,6 +46,11 @@ body{
 
 .site-nav .link {
 color: var(--site-nav-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
 }
 
 .site-nav .link:hover, 
@@ -41,10 +60,17 @@ color: var(--site-nav-text-color);
 
 .site-nav .link.current{
     color: var(--accent-color);
+    
 }
 
 .auth-nav .link {
     color:var(--site-auth-nav-text-color);
+font-weight: 500;
+font-size: 14px;
+line-height: 1.14;
+letter-spacing: 0.02em;
+text-decoration: none;
+
     }
     
     .auth-nav .link:hover, 
@@ -54,9 +80,18 @@ color: var(--site-nav-text-color);
     
 
 /*  Hero */
+.hero {
+    background-color: #2F303A;
+}
 
 .hero-tittle {
     color: var(--hero-text-color);
+font-weight: 900;
+font-size: 44px;
+line-height: 1.36;
+text-align: center;
+letter-spacing: 0.06em;
+text-transform: uppercase;
 }
 
 /*features*/
@@ -67,6 +102,17 @@ color: var(--site-nav-text-color);
 
 .feature-list .title{
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+}
+
+.feature-list .text{
+    font-size: 14px;
+    line-height: 1.71;
+        letter-spacing: 0.03em;  
 }
 
 
@@ -74,35 +120,102 @@ color: var(--site-nav-text-color);
 
 .work-title {
     color: var(--title-text-color);
+    font-weight: 700;
+    font-size: 36px;
+    line-height: 1.17;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* Our Team */
 
 .team-title{
     color: var(--title-text-color);
+font-weight: 700;
+font-size: 36px;
+line-height: 1.17;
+text-align: center;
+letter-spacing: 0.03em;
+background-color: #F5F4FA;
 }
 
 .team-list .title{
     color: var(--title-text-color);
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.team-list .text{
+    font-size: 16px;
+    line-height: 1.19;
+    text-align: center;
+    letter-spacing: 0.03em;
 }
 
 /* footer */
+.footer{
+    background-color: #2F303A;
+}
 
 .address-footer{
     color: var(--address-footer-text-color);
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 1.71;
+    letter-spacing: 0.03em;
+    text-decoration: none;
+}
+
+.address-footer.transparency{
+    color: rgba(255, 255, 255, 0.6);
+}
+
+    .address-footer:hover, 
+    .address-footer:focus {
+    color: var(--accent-color);
 }
 
 /* Buttons */
 .button{
-    color: var(--button-primary-text-color);
-    background-color: var(--accent-color) ;
-    font-size: 24px;
-    padding: 12px 24px;
-    display: inline-block;
-    border: 1px solid black;
+    cursor: pointer;
+}
+
+.button:hover,
+.button:focus {
+    color: var(--accent-color);
 }
 
 .button.primary {
     color: var(--button-primary-text-color);
     background-color: var(--accent-color) ;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 1.87;
+    letter-spacing: 0.06em;
+}
+
+.button.porfolio{
+    color: var(--title-text-colorl);
+    background-color: var(--button-porfolio-usual) ;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+.button.current{
+    color: var(--button-primary-text-color);
+    background-color: var(--accent-color) ;    
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.6;
+    text-align: center;
+    letter-spacing: 0.03em;
+}
+
+.list {
+    list-style: none;
 }
