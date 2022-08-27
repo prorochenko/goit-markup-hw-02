@@ -1,5 +1,5 @@
 # goit-markup-hw-02
-Second Homework for GoIt
+Second Homework for GoIt 
 Project
 «A1» In the root of the project, there is a folder called images with images.
 «A2» In the root of the project, there is a css folder with style sheets. 
