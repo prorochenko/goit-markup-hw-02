@@ -19,6 +19,7 @@ Project
 «A8» The code is in line with the guide.
 
 Markup
+
 «B1» The Portfolio page layout is in the portfolio.html file.
 
 «B2» HTML-markup is done for all layout elements.
@@ -48,6 +49,7 @@ Markup
 «B14» There are no additional elements, such as spans or links, inside the button markup.
 
 Styling
+
 «C1» There are no global element styles except for &lt;body&gt;.
 
 «C2» Class selectors are used for styling.
