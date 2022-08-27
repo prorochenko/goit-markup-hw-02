@@ -2,7 +2,7 @@
 Second Homework for GoIt
 Project
 «A1» In the root of the project, there is a folder called images with images.
-«A2» In the root of the project, there is a css folder with style sheets.
+«A2» In the root of the project, there is a css folder with style sheets. 
 «A3» All styles are contained in one styles.css file in the css folder.
 «A4» There are no capital letters, spaces and transliteration in the file names, only English letters and words.
 «A5» Source code is formatted with Prettier.
